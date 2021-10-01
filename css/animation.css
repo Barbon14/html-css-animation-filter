@@ -36,3 +36,8 @@
     margin: 30px;
     transition: all 1s;
 }
+
+/* esercizio 6 */
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
