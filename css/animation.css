@@ -121,3 +121,36 @@
         right: 20%;
     }
 }
+
+/* esercizio 13 */
+.ex-13-button:hover .ex-13-top-white {
+    animation: 4s linear spazio-sopra-giro-completo ;
+}
+
+@keyframes spazio-sopra-giro-completo {
+    0% {
+        top: -10px;
+        left: 10%;
+    }
+    20% {
+        top: -10px;
+        left: 100%;
+    }
+    25% {
+        top: 0px;
+        left: 100%;
+    }
+    50% {
+        top: 60px;
+        left: 70%;
+    }
+    75% {
+        top: 50px;
+        left: -20%;
+    }
+    100%
+    {
+        top: -10px;
+        left: 10%;
+    }
+}
