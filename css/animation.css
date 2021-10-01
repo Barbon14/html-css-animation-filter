@@ -76,3 +76,19 @@
     transform: rotate(1turn);
     }
 }
+
+/* esercizio 11 */
+.ex-11-icon:hover {
+    animation-name: rotate3-4;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
+@keyframes rotate3-4 {
+    80% {
+    transform: rotate(0.75turn);
+    }
+    100% {
+        transform: rotate(0turn);
+    }
+}
