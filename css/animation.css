@@ -21,3 +21,18 @@
     background-color: rgba(0, 0, 0, 0.0);
     transition: all 1s;
 }
+
+/* esercizio 5 */
+.ex-5-square:hover {
+    height: 100px;
+    width: 100px;
+    margin: 0;
+    transition: all 1s;
+}
+
+.ex-5-square:active {
+    height: 40px;
+    width: 40px;
+    margin: 30px;
+    transition: all 1s;
+}
