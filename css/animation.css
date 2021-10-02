@@ -170,15 +170,15 @@
     }
     30% {
         bottom: -10px;
-        right: 100%;
+        right: 80%;
     }
     40% {
         bottom: 60px;
-        right: 100%;
+        right: 80%;
     }
     50% {
         bottom: 60px;
-        right: 70%;
+        right: 50%;
     }
     80% {
         bottom: 60px;
