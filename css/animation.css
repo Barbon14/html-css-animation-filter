@@ -124,7 +124,7 @@
 
 /* esercizio 13 */
 .ex-13-button:hover .ex-13-top-white {
-    animation: 4s linear spazio-sopra-giro-completo ;
+    animation: 2s linear spazio-sopra-giro-completo ;
 }
 
 @keyframes spazio-sopra-giro-completo {
@@ -132,25 +132,65 @@
         top: -10px;
         left: 10%;
     }
-    20% {
+    30% {
         top: -10px;
         left: 100%;
     }
-    25% {
-        top: 0px;
+    40% {
+        top: 60px;
         left: 100%;
     }
     50% {
         top: 60px;
-        left: 70%;
+        left: 80%;
     }
-    75% {
-        top: 50px;
-        left: -20%;
+    80% {
+        top: 60px;
+        left: -10%;
+    }
+    90% {
+        top: -10px;
+        left: -10%;
     }
     100%
     {
         top: -10px;
         left: 10%;
+    }
+}
+
+.ex-13-button:hover .ex-13-bottom-white {
+    animation: 2s linear spazio-sotto-giro-completo ;
+}
+
+@keyframes spazio-sotto-giro-completo {
+    0% {
+        bottom: -10px;
+        right: 20%;
+    }
+    30% {
+        bottom: -10px;
+        right: 100%;
+    }
+    40% {
+        bottom: 60px;
+        right: 100%;
+    }
+    50% {
+        bottom: 60px;
+        right: 70%;
+    }
+    80% {
+        bottom: 60px;
+        right: -20%;
+    }
+    90% {
+        bottom: -10px;
+        right: -20%;
+    }
+    100%
+    {
+        bottom: -10px;
+        right: 20%;
     }
 }
